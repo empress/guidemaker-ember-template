@@ -1,13 +1,15 @@
 {
   "name": "guidemaker-ember-template",
   "version": "0.5.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Guidemaker template for Ember Learning Guides projects",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "guidemaker",
+    "guidemaker-template"
   ],
-  "repository": "",
+  "repository": "https://github.com/ember-learn/guidemaker-ember-template",
   "license": "MIT",
-  "author": "",
+  "author": "Chris Manson <chris.manson@simplabs.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -27,11 +29,11 @@
     "ember-cli-htmlbars": "^2.0.1",
     "ember-cli-sass": "^8.0.1",
     "ember-cli-showdown": "^4.4.4",
+    "ember-cli-spinjs": "^2.1.1",
     "ember-collapsible-panel": "^3.1.1",
     "ember-composable-helpers": "^2.1.0",
     "ember-href-to": "^1.15.1",
     "ember-power-select": "^2.0.9",
-    "ember-prism": "^0.3.0",
     "ember-styleguide": "^2.4.0",
     "ember-tether": "^1.0.0",
     "sass": "^1.14.3"
@@ -42,29 +44,35 @@
     "ember-cli": "~3.3.0",
     "ember-cli-dependency-checker": "^2.0.0",
     "ember-cli-eslint": "^4.2.1",
+    "ember-cli-fastboot": "^2.0.0",
     "ember-cli-htmlbars-inline-precompile": "^1.0.0",
     "ember-cli-inject-live-reload": "^1.4.1",
     "ember-cli-qunit": "^4.3.2",
     "ember-cli-shims": "^1.2.0",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^2.0.0",
+    "ember-data": "^3.5.1",
     "ember-disable-prototype-extensions": "^1.1.2",
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.1.0",
     "ember-maybe-import-regenerator": "^0.1.6",
+    "ember-prism": "^0.3.0",
     "ember-resolver": "^4.0.0",
     "ember-source": "~3.3.0",
     "ember-source-channel-url": "^1.0.1",
     "ember-try": "^0.2.23",
     "eslint-plugin-ember": "^5.0.0",
     "eslint-plugin-node": "^6.0.1",
+    "guidemaker": "^0.6.1",
     "loader.js": "^4.2.3",
+    "prember": "^1.0.0",
     "qunit-dom": "^0.6.2"
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
   },
   "ember-addon": {
-    "configPath": "tests/dummy/config"
+    "configPath": "tests/dummy/config",
+    "demoURL": "https://guidemaker-ember-template.netlify.com"
   }
 }
